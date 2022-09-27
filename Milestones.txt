@@ -1,1 +1,3 @@
 The basic purpose of this file is  to document the state of the project
+Initially we should know the software model that we should add for the software
+There should be a readme.md file to let the user know what the function of the software is
