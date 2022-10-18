@@ -26,7 +26,7 @@ public static void main(String[] args) {
     }
 }
 private static void print(int[][]arr){
-    System.out.print("    "); 
+    System.out.print("    ");
     for (int i=0;i<arr.length;i++) System.out.print("["+(i+1)+"]");
     System.out.println();
     for (int i=0;i<arr.length;i++)
