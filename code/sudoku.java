@@ -57,9 +57,9 @@ public class sudoku{
         }
         int columnStart = (column-1)/3;
         int rowStart = (row-1)/3;
-        for (int i=rowStart;i<rowStart+3;i++)
+        for (int i=rowStart*3;i<((row-1)/3)*3+3;i++)
         {
-            for (int j=columnStart;j<columnStart+3;j++)
+            for (int j=columnStart*3;j<((column-1)/3)*3+3;j++)
             {
                 if (i!=row-1 && j!=column-1 && value==arr[i][j]) return false;
             }
